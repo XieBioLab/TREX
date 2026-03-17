@@ -1,0 +1,24 @@
+name: esm2-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - transformers
+  - ca-certificates
+  - openssl
+  - numpy
+  - pandas
+  - huggingface_hub
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.4
+  - certifi
+  - matplotlib
+  - openpyxl
+  - seaborn
+  - captum
+  - ipython
+  - peft
+  - xgboost
+prefix: /mnt/data/caobf/miniforge3/envs/esm2-env
